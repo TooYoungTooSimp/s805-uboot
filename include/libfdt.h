@@ -1,5 +1,5 @@
-#ifndef _LIBFDT_H
-#define _LIBFDT_H
+#ifndef LIBFDT_H
+#define LIBFDT_H
 /*
  * libfdt - Flat Device Tree manipulation
  * Copyright (C) 2006 David Gibson, IBM Corporation.
@@ -1129,4 +1129,4 @@ int fdt_del_node(void *fdt, int nodeoffset);
 
 const char *fdt_strerror(int errval);
 
-#endif /* _LIBFDT_H */
+#endif /* LIBFDT_H */

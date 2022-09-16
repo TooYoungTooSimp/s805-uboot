@@ -1,5 +1,5 @@
-#ifndef _FDT_H
-#define _FDT_H
+#ifndef FDT_H
+#define FDT_H
 
 #ifndef __ASSEMBLY__
 
@@ -59,4 +59,4 @@ struct fdt_property {
 
 /* adding a ramdisk needs 0x44 bytes in version 2008.10 */
 #define FDT_RAMDISK_OVERHEAD	0x80
-#endif /* _FDT_H */
+#endif /* FDT_H */
